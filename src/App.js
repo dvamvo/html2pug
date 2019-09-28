@@ -196,7 +196,7 @@ class App extends Component {
             </div>
           </div>
         </section>
-        <article className="footer pt-3 pb-3 mt-4 row">
+        {/* <article className="footer pt-3 pb-3 mt-4 row">
           <div className="col-12">
             <center>
               <a href="https://directlyapply.com/?utm_source=html2jade&utm_medium=banner&utm_campaign=html2jade" target="_blank">
@@ -205,7 +205,7 @@ class App extends Component {
             </center>
           
           </div>
-        </article>
+        </article> */}
       </React.Fragment>
     );
   }
