@@ -1,5 +1,5 @@
 body {
-  font-family: Arvo, Georgia, "Times New Roman", Times, serif;
+  font-family: Helvetica;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -7,7 +7,7 @@ body {
 header,
 article {
   color: white;
-  background: #a86454;
+  background: #2d3436;
 }
 
 .footer {

@@ -162,7 +162,7 @@ class App extends Component {
           </div>
           <div className="col-12 col-md-2 right">
             <div className="links">
-              <a href="https://github.com/chenka/html2jade.org/issues/new">
+              <a href="https://github.com/dylankbuckley/html2pug/issues/new">
                 Report an issue
               </a>
             </div>
