@@ -1,0 +1,96 @@
+body {
+  font-family: Helvetica;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header,
+article {
+  color: white;
+  background: #2d3436;
+}
+
+.footer {
+  background: white;
+}
+
+a,
+a:hover {
+  color: white;
+  font-weight: 400;
+  text-decoration: white;
+}
+
+header .right {
+  font-size: 14px;
+  justify-content: flex-end;
+  display: flex;
+}
+
+header .right .links {
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+header .logo {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+header .small {
+  font-size: 20px;
+}
+
+header .setting {
+  font-size: 13px;
+}
+
+header .setting input {
+  margin: 0 7px;
+}
+
+header .setting select[name="tabSize"] {
+  margin-left: 15px;
+  margin-right: 7px;
+}
+
+.img-logo {
+  width: 110px;
+}
+
+.editor-html {
+  padding-top: 20px;
+  padding-right: 0;
+}
+
+.editor-jade {
+  padding-top: 20px;
+  padding-left: 0;
+}
+
+#ace-jade {
+  background: rgba(0, 0, 0, 0.01);
+}
+
+.ace_editor {
+  height: calc(100vh - 250px) !important;
+  font-family: "Monaco", "Menlo", "Ubuntu Mono", "Consolas", "source-code-pro",
+    monospace !important;
+  width: 100% !important;
+}
+
+footer {
+  color: white;
+  background: white;
+}
+
+@media (max-width: 575.98px) {
+  header .logo {
+    font-size: 28px;
+  }
+
+  .editor {
+    border-bottom: 1px solid lightgray;
+  }
+}
