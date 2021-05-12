@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "brace": "^0.11.1",
-    "codemirror": "^5.39.2",
+    "codemirror": "^5.58.2",
     "js-beautify": "^1.8.4",
     "pug-beautify": "^0.1.1",
     "react": "^16.4.2",
